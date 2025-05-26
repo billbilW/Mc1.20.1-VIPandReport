@@ -10,5 +10,12 @@
      /report <玩家> <原因>
 
      /vip <add/remove> <玩家> （需要管理员）
+
+     
+如果/vip 命令后面是 add 的话格式如下
+
+     /vip add <Player ID> <level> （需要管理员）
+
+
      
 下载后扔进你的1.20.1paper服务端\plugins里面，然后运行。
