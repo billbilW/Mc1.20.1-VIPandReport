@@ -7,7 +7,6 @@
 
      /report <玩家> <原因>
 
-
      /vip <add/remove> <玩家> （需要管理员）
      
 下载后扔进你的1.20.1paper服务端\plugins里面，然后运行。
