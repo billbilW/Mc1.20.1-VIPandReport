@@ -1,0 +1,27 @@
+# 封禁系统配置
+ban-system:
+  durations:
+    作弊: 2592000000  # 30天(毫秒)
+    辱骂: 86400000    # 1天
+    利用漏洞: 604800000 # 7天
+    消极游戏: 3600000   # 1小时
+  unban-cooldown: 86400000 # 解封冷却24小时
+
+# VIP特权配置
+vip:
+  max-reports: 5
+  cooldown: 300
+  levels:
+    default: 1  # 默认VIP等级
+
+contact:
+  qq: 123456
+  email: 123@456.com
+
+# 消息模板
+messages:
+  no-permission: "§c你没有权限使用此命令"
+  player-offline: "§c目标玩家不在线"
+  report-success: "§a举报成功！已封禁目标玩家"
+  vip-added: "§a成功添加VIP: {player}"
+  vip-removed: "§a已移除VIP: {player}"
