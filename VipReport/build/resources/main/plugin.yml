@@ -1,0 +1,19 @@
+description: 管理VIP玩家+和举报自动处理，对于一些Staff较少的Server中有一点用
+name: VipReport
+main: com.billbilW.vipreport.VipReportPlugin
+version: 2.18
+api-version: 1.19
+commands:
+  report:
+    description: 举报命令
+    usage: /report <玩家> <原因>
+  vip:
+    description: 管理员管理VIP命令
+    usage: /vip <add/remove> <玩家>
+permissions:
+  vipreport.use:
+    description: 使用举报功能
+    default: false
+  vipreport.admin:
+    description: 管理VIP权限
+    default: op
